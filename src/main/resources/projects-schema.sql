@@ -47,3 +47,4 @@ CREATE TABLE project_category (
 	FOREIGN KEY (category_id) REFERENCES category(category_id) ON DELETE CASCADE,
 	UNIQUE KEY (project_id, category_id)
 );
+
